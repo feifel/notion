@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T14:30:54.395Z" agent="5.0 (Windows)" etag="zRzKjzB73JCpw5Enoy7I" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-24T15:00:34.215Z" agent="5.0 (Windows)" etag="DKmnCZk_lmgRD5NPbm8C" version="14.1.8" type="github">
   <diagram id="6b99Qblq1uOMe81oencH" name="Page-1">
-    <mxGraphModel dx="1273" dy="775" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1846" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,72 @@
               <mxPoint x="473" y="122" />
               <mxPoint x="473" y="112" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-32" value="Record to Search" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-33" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;PrimaryName:&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;string[] FirstName&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;[0]&quot;ABDUL&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;[1]&quot;MEHMED&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[2]&lt;/font&gt;&quot;ALI&quot;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;string[] LastName &lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[0]&lt;/font&gt;&quot;BASSAR&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="YM7sdpSk1il3TAfAZ3iK-32">
+          <mxGeometry x="10" y="30" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-34" value="Word Index" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="165" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-35" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;string[] WordIndex:&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;[0]&quot;ABDUL&quot;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[1]&lt;/font&gt;&quot;ACHMED&quot;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[2]&lt;/font&gt;&quot;AHMED&quot;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[3]&lt;/font&gt;&quot;ALI&quot;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[4]&lt;/font&gt;&quot;AL&quot;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[5]&lt;/font&gt;&quot;ASSAR&quot;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[6]&quot;BASSAR&quot;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;:&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="YM7sdpSk1il3TAfAZ3iK-34">
+          <mxGeometry x="7.5" y="35" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-36" value="Matches For Record" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="165" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-37" value="&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;int[] Matches&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;[0]true&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[1]&lt;/font&gt;false&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[2]&lt;/font&gt;false&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[3]&lt;/font&gt;true&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[4]false&lt;/font&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[5]&lt;/font&gt;false&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;[6]true&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font face=&quot;Courier New&quot;&gt;:&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="YM7sdpSk1il3TAfAZ3iK-36">
+          <mxGeometry x="7.5" y="30" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;" edge="1" parent="1" target="YM7sdpSk1il3TAfAZ3iK-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134.97" y="507.94" as="sourcePoint" />
+            <mxPoint x="365.0200000000002" y="389.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="508" />
+              <mxPoint x="240" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;" edge="1" parent="1" target="YM7sdpSk1il3TAfAZ3iK-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134.00000000000003" y="539.94" as="sourcePoint" />
+            <mxPoint x="296.53" y="528" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="540" />
+              <mxPoint x="239" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="570" as="sourcePoint" />
+            <mxPoint x="300" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="570" />
+              <mxPoint x="239" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-42" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="496" as="sourcePoint" />
+            <mxPoint x="551" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-43" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="542" as="sourcePoint" />
+            <mxPoint x="551" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YM7sdpSk1il3TAfAZ3iK-44" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="586" as="sourcePoint" />
+            <mxPoint x="552" y="586" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
